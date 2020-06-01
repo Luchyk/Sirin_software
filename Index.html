@@ -8,6 +8,7 @@
     </head>
     <body>
         <div id="block-body">
+            <div class="head-block">
             <div class="header">
                 <div class="mobile-menu"><img src="img/group_menu.svg" alt="menu"></div>
                 <div class="logo">
@@ -52,9 +53,10 @@
                 <div class="mobile-button"><a href="#">GET A FREE QUOTE</a></div>
                 <div class="get-button">
                     <button>
-                        GET A FREE QUOTE
+                        <a href="#">GET A FREE QUOTE</a>
                     </button>
                 </div>
+            </div>
             </div>
         </div>
         <div class="full-mobile">
@@ -102,5 +104,47 @@
             <div class="cross"><a href="#"><img src="img/cross.svg" alt="logo"></a></div>
         </div>
         </div>
+        <div class="block">
+        <div class = "form-block">
+            
+            <div class="question-block">
+                <div class = "question-shadow">HOW CAN WE HELP YOU?</div>
+                <div class = "question">HOW CAN WE HELP YOU?</div>
+            </div>
+            
+            <div class="form-text">We will get in touch with you within <b>24 business hours</b></div>
+            <div class="input-block">
+            <form action = "#" method="post" enctype="multipart/form-data">
+                <input placeholder="Name*" tabindex="1" name="username" type="text" />
+                <input placeholder="Email*" tabindex="2" name="email" type="text" />
+                <input placeholder="Company*" tabindex="3" name="company" type="text" />
+                <textarea class = "text-field" placeholder="Message" tabindex="4" name="text"></textarea>
+                <div class="clip"><input type="file" id="upload" class="hide"></div>
+                <label class="picture" for="upload"><img src="img/clip.svg"></label>
+                <div class = "send">
+                    <div class="box">
+                        <input tabindex="5" type="checkbox" id="nda" class="cbx" name="check"> 
+                        <label for="nda">Send me NDA</label>
+                    </div>
+                    <div class="box">
+                        <input tabindex="6" checked type="checkbox" id="accept" name="check" value="yes">
+                        <label for="accept">I accept Sirin software <span> Private policy </span></label>
+                    </div>
+                    <div class="box">
+                        <input tabindex="7" type="checkbox" id="news" name="check" value="yes">
+                        <label for="news">I want to stay tuned for Sirin Software latest articles and news</label>
+                    </div>
+                </div>
+            </form>
+            <div class="btn">
+                <div class="btn-send">
+                    <button><a href="#">SEND</a></button>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        
     </body>
 </html>
